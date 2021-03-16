@@ -9,10 +9,15 @@
     }
   },
   "description": "NativeScript Application",
-  "license": "SEE LICENSE IN <your-license-filename>",
-  "repository": "<fill-your-repository-here>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dbanksdesing/mobile-app-frontends.git"
+  },
   "scripts": {
-    "lint": "eslint \"app/**/*.js\""
+    "lint": "eslint \"app/**/*.js\"",
+    "start:ios": "tns run ios",
+    "start:android": "tns run android"
   },
   "dependencies": {
     "@nativescript/theme": "~2.3.3",
@@ -24,7 +29,5 @@
     "eslint": "~5.8.0",
     "nativescript-dev-webpack": "~1.5.1",
     "node-sass": "^4.7.1"
-  },
-  "gitHead": "2250137db8c1e0bd0eb543e8e4563cb71480c00d",
-  "readme": "NativeScript Application"
+  }
 }

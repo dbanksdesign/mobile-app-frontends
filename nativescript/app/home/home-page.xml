@@ -2,12 +2,14 @@
     navigatingTo="onNavigatingTo"
     xmlns="http://schemas.nativescript.org/tns.xsd">
 
-    <ActionBar>
+    <ActionBar class="_actionbar">
         <!--
         Use the NavigationButton as a side-drawer button in Android
         because ActionItems are shown on the right side of the ActionBar
         -->
-        <NavigationButton ios:visibility="collapsed" icon="res://menu" tap="onDrawerButtonTap"></NavigationButton>
+        <NavigationButton ios:visibility="collapsed"
+            icon="res://menu"
+            tap="onDrawerButtonTap"></NavigationButton>
         <!--
         Use the ActionItem for IOS with position set to left. Using the
         NavigationButton as a side-drawer button in iOS is not possible,
@@ -23,6 +25,6 @@
 
     <GridLayout class="page__content">
         <Label class="page__content-icon fas" text="&#xf015;"></Label>
-        <Label class="page__content-placeholder" text="<!-- Page content goes here -->"></Label>
+        <Label class="page__content-placeholder" text="<!-- lasfkdj content goes here -->"></Label>
     </GridLayout>
 </Page>
